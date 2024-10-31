@@ -1,5 +1,4 @@
 # Sistema de Gerenciamento de Eventos Culturais
-<h1 color: red align="center"> Seu título aqui </h1>
 
 Este projeto é um sistema de gerenciamento de eventos desenvolvido em C++. O sistema permite adicionar, remover e listar eventos, além de gerenciar artistas associados a esses eventos. Os eventos podem ser de diferentes tipos, como shows e exposições.
 
