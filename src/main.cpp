@@ -134,7 +134,7 @@ int main(void) {
                 cout << "Saindo...\n";
                 break;
             }
-            default:
+            default: // Opcao fora das do menu
                 cout << "Opcao invalida!\n";
         }
     } while (opcao != 0);
