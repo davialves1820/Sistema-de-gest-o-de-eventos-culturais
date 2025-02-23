@@ -1,8 +1,11 @@
 # Sistema de Gerenciamento de Eventos Culturais
 
+# 📄 Descrição
 Este projeto é um sistema de gerenciamento de eventos desenvolvido em C++. O sistema permite adicionar, remover e listar eventos, além de gerenciar artistas associados a esses eventos. Os eventos podem ser de diferentes tipos, como shows e exposições.
 
-## Funcionalidades
+---
+
+## 🔧 Funcionalidades
 
 - **Adicionar Evento**: Cria um novo evento, especificando o nome, idade e tipo (Show ou Exposição).
 - **Remover Evento**: Remove um evento existente pelo nome.
@@ -10,7 +13,9 @@ Este projeto é um sistema de gerenciamento de eventos desenvolvido em C++. O si
 - **Remover Artista de Evento**: Remove um artista de um evento específico.
 - **Listar Eventos**: Exibe todos os eventos cadastrados.
 
-## Estrutura do Projeto
+---
+
+## 🗂️ Estrutura do Projeto
 
 - **`src/: Contém os arquivos de implementação (.cpp).
 - **`include/: Contém os arquivos de cabeçalho (.h).
@@ -18,14 +23,18 @@ Este projeto é um sistema de gerenciamento de eventos desenvolvido em C++. O si
 - **`build/: Diretório gerado pelo Makefile para o executável final.
 - **`Makefile: Script para automatizar o processo de compilação.
 
-## Classes Principais
+---
+
+## 📦 Classes Principais
 
 - **`Artist`**: Classe que implementa a funcionalidade do objeto artista
 - **`Event`**: Classe base abstrata para todos os tipos de eventos.
 - **`Show`**, **`Exposure`**: Classes derivadas que implementam a funcionalidade específica de cada tipo de evento.
 - **`EventManager`**: Classe responsável por gerenciar os eventos.
 
-## Compilação e Execução
+---
+
+## ⚙️ Compilação e Execução
 
 Para compilar o projeto no terminal execute: 
 
@@ -37,7 +46,9 @@ Para executar o programa no terminal execute:
 ./build/my_program
 ```
 
-## Exemplo de Uso
+---
+
+## 🖥️ Exemplo de Uso
 
 - **Adicionar Evento:** Selecione adicionar evento e preencha as informações solicitadas.
 - **Remover Evento:** Selecione remover evento e insira o nome do evento a ser removido.
